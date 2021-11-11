@@ -1,0 +1,62 @@
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.asd {
+  background: #ffffff;
+  border: 0 0 0 0;
+  border-color: #ffffff;
+}
+button.selected {
+  color: rgb(0, 174, 255);
+}
+button {
+  background-color: #ffffff; /* Green */
+  border: 1px;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px 3px #888888;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #413ef1;
+  color: white;
+}
+h3 {
+  color: #413ef1;
+}
