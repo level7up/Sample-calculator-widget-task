@@ -1,4 +1,4 @@
-input[type="text"],
+input,
 select {
   width: 100%;
   padding: 12px 20px;
@@ -32,6 +32,8 @@ input[type="submit"]:hover {
 }
 .asd {
   background: #ffffff;
+  color: black;
+  font-size: 15px;
   border: 0 0 0 0;
   border-color: #ffffff;
 }
@@ -54,9 +56,13 @@ button {
   border-radius: 10px;
 }
 button:hover {
-  background-color: #413ef1;
+  background-color: #125fee;
   color: white;
 }
 h3 {
-  color: #413ef1;
+  color: #125fee;
+  text-align: center;
+}
+tr {
+  text-align: center;
 }
